@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node:
+    image: gerardojunior/nodejs:stable
+    volumes:
+        - .:/src
+    ports:
+        - 8000:8000
