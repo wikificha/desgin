@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wikificha/desgin.git"
+    "url": "git+https://github.com/wikificha/design.git"
   },
   "author": "Gerardo Junior <me@gerardo-junior.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wikificha/desgin/issues"
+    "url": "https://github.com/wikificha/design/issues"
   },
-  "homepage": "https://github.com/wikificha/desgin#readme"
+  "homepage": "https://design.wikificha.org"
 }
