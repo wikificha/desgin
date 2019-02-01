@@ -1,8 +1,11 @@
-version: '3'
-services:
+version: "3.4"
+services:  
   node:
     image: gerardojunior/nodejs:stable
     volumes:
-        - .:/src
+      - type: bind
+        source: ./
+        target: /src
     ports:
-        - 8000:8000
+      - 3000:3000
+    command: dev
